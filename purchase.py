@@ -110,7 +110,7 @@ def update_product_stock(cursor, purchase_list, mydb):
 
 
 if __name__ == "__main__":
-    user_choice = input("Enter '1' to purchase products, '2' to delete a product: ")
+    user_choice = input("Enter '1' to Shopping, '2' For Deleting a product: ")
     
     if user_choice == '1':
         purchase_product()
