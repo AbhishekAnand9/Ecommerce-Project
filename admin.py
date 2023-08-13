@@ -5,7 +5,7 @@ def admin_options():
     print("\n")
     print("  E-commerce Admin Panel !!   ")
     print("\n")
-    user_inp = input("Tell me Are you an Administrator or a Customer ?(Admin / Customer): ").lower()
+    user_inp = input("Type you are an Administrator or a Customer ?(Admin / Customer): ").lower()
     print("\n")
     if user_inp == "admin":
         additem.add_item()  
