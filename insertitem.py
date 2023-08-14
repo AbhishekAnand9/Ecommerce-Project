@@ -10,7 +10,7 @@ def add_item(product_name, quantity, price, manufacture_date, expiry_date):
     try:
         mycursor.execute(sql, values)
         mydb.commit()
-        print("Product added successfully!")
+        print("Product added successfully to Db!")
     except Exception as e:
         raise e
     
