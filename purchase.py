@@ -37,14 +37,14 @@ def purchase_product():
     
     update_product_stock(mycursor, purchase_list, mydb) 
     mydb.commit()
-    print("Purchase successful! Thank you for shopping with us.")
+    print("Purchase successful! Thanks.")
     mydb.close()
 
 
 def get_purchase_list(cursor):
     purchase_list = []
     while True:
-        search_input = input("Enter at least 3 characters to search for a product (0 to finish): ")
+        search_input = input("Enter 3 characters to find your product or enter 0 to finish : ")
         if search_input == '0':
             break
 
